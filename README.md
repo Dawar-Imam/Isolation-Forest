@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ## Dataset Description
 
 The transaction_anomalies_dataset dataset 12 features, each of whose description is given as follows:
-
+```bash
 Transaction_ID:                 Unique identifier for each transaction.
 Transaction_Amount:             The monetary value of the transaction.
 Transaction_Volume:             The quantity or number of items/actions involved in the transaction.
@@ -30,7 +30,7 @@ Age:                            Age of the account holder.
 Gender:                         Gender of the account holder.
 Income:                         Income of the account holder.
 Account_Type:                   Type of account (e.g., current, savings)
-
+```
 Statistics of the dataset are also shown during program execution, as well as null values inside the data columns.
 
 ## Training and Testing
@@ -54,6 +54,11 @@ This report is also presented during execution of the program
 
 ## Graphical Results
 
-![Image Description](Graphs/Correlation_Matrix.png)
+![Distribution of Transaction Amount](Graphs/Distribution_of_Transaction_Amount.png)
+![Transaction Amount by Account Type](Graphs/Transaction_Amount_by_Account_Type.png)
+![Average Transaction Amount by Age](Graphs/Average_Transaction_Amount_by_Age.png)
+![Count of Transactions by Day of Week](Graphs/Count_of_Transactions_by_Day_of_Week.png)
+![Correlation Matrix](Graphs/Correlation_Matrix.png)
+![Anomalies in Transaction Amount](Graphs/Anomalies_in_Transaction_Amount.png)
 
 
