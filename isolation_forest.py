@@ -58,6 +58,7 @@ def transactions_amount_by_account_type(data):
     plt.title('Transaction Amount by Account Type')
     plt.xlabel('Account Type')
     plt.ylabel('Transaction Amount')
+    plt.savefig('Transaction Amount by Account Type.png')
     plt.show()
 
 
@@ -79,6 +80,7 @@ def average_transaction_amount_by_age(data):
     plt.xlabel('Age')
     plt.ylabel('Average Transaction Amount')
     plt.legend()
+    plt.savefig('Average Transaction Amount by Age.png')
     plt.show()
 
 
@@ -94,6 +96,7 @@ def count_of_transactions_by_day_of_week(data):
     plt.title('Count of Transactions by Day of the Week')
     plt.xlabel('Day of the Week')
     plt.ylabel('Count')
+    plt.savefig('Count of Transactions by Day of Week.png')
     plt.show()
 
 
@@ -115,6 +118,7 @@ def correlation(numpy_data, data):
     cmap = LinearSegmentedColormap.from_list("Custom", colors, N=256)
     sns.heatmap(correlation_matrix, annot=False, cmap=cmap, cbar=True, xticklabels=data.columns, yticklabels=data.columns)
     plt.title('Correlation Matrix')
+    plt.savefig('Correlation Matrix.png')
     plt.show()
 
 def visualize_anomalies(data):
@@ -138,6 +142,7 @@ def visualize_anomalies(data):
         Line2D([0], [0], marker='o', color='w', label='True', markerfacecolor='red', markersize=10)
     ]
     plt.legend(handles=legend_elements, title='Anomaly', loc='upper right')
+    plt.savefig('Average Transaction Amount vs Transaction Amount.png')
     plt.show()
 
 distribution_of_transactions(data2) 
