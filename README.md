@@ -54,3 +54,6 @@ This report is also presented during execution of the program
 
 ## Graphical Results
 
+![Image Description](Graphs/Distribution_of_Transaction_Amount.png)
+
+
