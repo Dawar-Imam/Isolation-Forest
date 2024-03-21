@@ -42,18 +42,18 @@ Dataset information composing of feature description, statistics, and null value
 The model trained over above dataset acheived an average of 78% accuracy. Here's the classification report:
 
 Classification Report:
-
+```bash
               precision  recall  f1-score   support
 Anomaly           0.000   0.000  0.000000     0.000
 Normal            1.000   0.804  0.891353  1000.000
 accuracy          0.804   0.804  0.804000     0.804
 macro avg         0.500   0.402  0.445676  1000.000
 weighted avg      1.000   0.804  0.891353  1000.000
-
+```
 This report is also presented during execution of the program
 
 ## Graphical Results
 
-![Image Description](Graphs/Distribution_of_Transaction_Amount.png)
+![Image Description](Graphs/Correlation_Matrix.png)
 
 
