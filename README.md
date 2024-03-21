@@ -35,9 +35,22 @@ Statistics of the dataset are also shown during program execution, as well as nu
 
 ## Training and Testing
 
-Dataset information composing of feature description, statistics, and null value counts are shown during program execution. After training, statistical graphs are presented, and its accuracy during training is also shown. Lastly testing phase prompts runs shortly for runtime detection of anomalies. 
+Run the isolation_forest.py file after installing the given requirements.
 
-The model trained over above dataset acheived bla bla bla accuracy,f1 score as fellows
+Dataset information composing of feature description, statistics, and null value counts are shown during program execution. The data was first cleaned and unnecessary features were removed before going into training. After cleaning and training, statistical graphs are presented, and its accuracy during training is also shown. Lastly testing phase prompts runs shortly for runtime detection of anomalies. 
+
+The model trained over above dataset acheived an average of 78% accuracy. Here's the classification report:
+
+Classification Report:
+
+              precision  recall  f1-score   support
+Anomaly           0.000   0.000  0.000000     0.000
+Normal            1.000   0.804  0.891353  1000.000
+accuracy          0.804   0.804  0.804000     0.804
+macro avg         0.500   0.402  0.445676  1000.000
+weighted avg      1.000   0.804  0.891353  1000.000
+
+This report is also presented during execution of the program
 
 ## Graphical Results
 
