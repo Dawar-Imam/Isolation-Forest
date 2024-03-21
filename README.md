@@ -1,0 +1,3 @@
+# Isolation Forest
+
+Isolation Forest is an algorithm used for anomaly detection, particularly in unsupervised learning scenarios. It's designed to efficiently isolate anomalies within a dataset by constructing binary trees. The key idea behind Isolation Forest is that anomalies are expected to be easier to isolate than normal data points, requiring fewer splits in the trees. By measuring the number of splits required to isolate each data point, anomalies can be identified as those requiring fewer splits. This approach makes Isolation Forest particularly effective for detecting outliers or anomalies in high-dimensional datasets, as it doesn't rely on distance measures and can handle large datasets efficiently.
